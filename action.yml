@@ -1,0 +1,14 @@
+name: 'ga-pas-inventory'
+description: 'The github action for the inventory of PaS.'
+author: 'Eugenio Vinicio Berretta <euberdeveloper@gmail.com>'
+inputs:
+  inventoryPath:
+    description: 'A direct path to the inventory directory'
+    required: false
+    default: './inventory'
+branding:
+  icon: check
+  color: green
+runs:
+  using: 'node16'
+  main: 'bundled/index.cjs'
