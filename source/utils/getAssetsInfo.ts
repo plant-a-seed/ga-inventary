@@ -6,7 +6,7 @@ import { AssetInfo } from '@/types/index.js';
 
 function getAssetInfo(assetInfo: Dree): AssetInfo {
     const title = assetInfo.name;
-    const readmePath = path.join(assetInfo.path, 'index.md');
+    const readmePath = path.join(assetInfo.path, 'README.md');
     const parsingResult = read(readmePath);
     return {
         title,
