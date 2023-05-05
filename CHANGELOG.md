@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/plant-a-seed/ga-inventory/compare/v0.2.0...v0.2.1) (2023-05-05)
+
+
+### Features
+
+* **getAssetsInfo:** show real image in table ([586bb9d](https://github.com/plant-a-seed/ga-inventory/commit/586bb9dcbb11991b48ab3d515d61bf34bec40e20))
+
 ## [0.2.0](https://github.com/plant-a-seed/ga-inventory/compare/v0.1.1...v0.2.0) (2023-05-05)
 
 
