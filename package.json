@@ -1,6 +1,6 @@
 {
   "name": "ga-inventary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The github action for the inventary",
   "main": "index.js",
   "type": "module",
