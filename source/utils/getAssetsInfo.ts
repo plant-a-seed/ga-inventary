@@ -9,12 +9,12 @@ function getAssetInfo(assetInfo: Dree): AssetInfo {
     const readmePath = path.join(assetInfo.path, 'README.md');
     const parsingResult = read(readmePath);
     const parsedData = parsingResult.data as Omit<AssetInfo, 'title' | 'content'>;
-    const imagePath = path.join('./assets', title, parsedData.image);
+    const imagePath = parsedData.image ? path.join('./assets', title, parsedData.image) : null;
 
     return {
         title,
         ...parsedData,
-        image: `![image](${imagePath})`,
+        image: imagePath ? `![image](${imagePath})` : '',
         content: parsingResult.content
     };
 }
