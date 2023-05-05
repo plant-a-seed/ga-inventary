@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/plant-a-seed/ga-inventory/compare/v0.1.1...v0.2.0) (2023-05-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* all the refs to inventary are changed to inventory
+
+* rename inventary -> inventory ([1496c9a](https://github.com/plant-a-seed/ga-inventory/commit/1496c9a39e26402afed4c8e6e1ad0bd470576696))
+
 ### 0.1.1 (2023-05-05)
 
 
