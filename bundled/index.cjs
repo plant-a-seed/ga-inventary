@@ -60,7 +60,7 @@ return `+str.trim()+`;
 # Inventory
 
 [[TABLE]]
-`;function ad(e){let t=Object.keys(Ec),r=t.map(i=>Ec[i]),n=e.map(i=>t.map(o=>i[o]));return[r,...n]}function _c(e){let t=ad(e),r=Ac(t);return cd.replace("[[TABLE]]",r)}var Sc=ye(require("node:fs"),1),Oc=ye(require("node:path"),1);function Tc(e,t){let r=Oc.join(e,"README.md");Sc.writeFileSync(r,t)}try{Xe.info("Parsing options...");let e=So();Xe.debug("Options",e),Xe.info("Getting assets info...");let t=bc(e.inventoryPath);Xe.info("Getting markdown index...");let r=_c(t);Xe.info("Writing markdown index..."),Tc(e.inventoryPath,r),Xe.success("Assets table written successfully!")}catch(e){console.error("Error in executing action",e),Cc.setFailed(e.message)}
+`;function ad(e){let t=Object.keys(Ec),r=t.map(i=>Ec[i]),n=e.map(i=>t.map(o=>i[o]));return[r,...n]}function _c(e){let t=ad(e),r=Ac(t);return cd.replace("[[TABLE]]",r)}var Sc=ye(require("node:fs"),1),Oc=ye(require("node:path"),1);function Tc(e,t){let r=Oc.join(e,"README.md");Sc.writeFileSync(r,t)}try{Xe.info("Parsing options...");let e=So();Xe.debug("Options",e),Xe.info("Getting assets info...");let t=bc(e);Xe.info("Getting markdown index...");let r=_c(t);Xe.info("Writing markdown index..."),Tc(e.inventoryPath,r),Xe.success("Assets table written successfully!")}catch(e){console.error("Error in executing action",e),Cc.setFailed(e.message)}
 /*! Bundled license information:
 
 is-extendable/index.js:
