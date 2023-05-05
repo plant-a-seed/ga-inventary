@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The github action for the inventary",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "clean": "shx rm -rf dist bundled",
     "pretranspile:source": "npm run clean",

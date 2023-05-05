@@ -1,2 +1,2 @@
-export * from './Options';
-export * from './AssetInfo';
+export * from './Options.js';
+export * from './AssetInfo.js';

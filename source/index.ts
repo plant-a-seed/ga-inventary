@@ -1,7 +1,7 @@
 import * as core from '@actions/core';
 import logger from 'euberlog';
 
-import { parseOptions } from './utils/parseOptions';
+import { parseOptions } from './utils/parseOptions.js';
 
 try {
     logger.info('Parsing options...');
