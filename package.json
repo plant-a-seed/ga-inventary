@@ -1,7 +1,7 @@
 {
-  "name": "ga-inventary",
+  "name": "ga-inventory",
   "version": "0.1.1",
-  "description": "The github action for the inventary",
+  "description": "The github action for the inventory",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -30,14 +30,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plant-a-seed/ga-inventary.git"
+    "url": "git+https://github.com/plant-a-seed/ga-inventory.git"
   },
   "author": "Eugenio Vinicio Berretta <euberdeveloper@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/plant-a-seed/ga-inventary/issues"
+    "url": "https://github.com/plant-a-seed/ga-inventory/issues"
   },
-  "homepage": "https://github.com/plant-a-seed/ga-inventary#readme",
+  "homepage": "https://github.com/plant-a-seed/ga-inventory#readme",
   "devDependencies": {
     "@euberdeveloper/eslint-plugin": "^2.3.0",
     "@jest/types": "^29.5.0",
