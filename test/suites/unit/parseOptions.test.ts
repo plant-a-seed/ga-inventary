@@ -11,7 +11,7 @@ describe('Test utility parseOptions', function () {
 
         const options = parseOptions();
         expect(options).toEqual({
-            ...status
+            inventoryPath: './inventory'
         });
     });
 
@@ -23,7 +23,7 @@ describe('Test utility parseOptions', function () {
 
         const options = parseOptions();
         expect(options).toEqual({
-            ...status
+            inventoryPath: './inventory'
         });
     });
 });

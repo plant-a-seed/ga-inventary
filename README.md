@@ -1,2 +1,2 @@
-# ga-inventary
-A github action for the inventary
+# ga-inventory
+A github action for the inventory
