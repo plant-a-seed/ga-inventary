@@ -11,7 +11,7 @@ try {
     const options = parseOptions();
     logger.debug('Options', options);
     logger.info('Getting assets info...');
-    const assetsInfo = getAssetsInfo(options.inventoryPath);
+    const assetsInfo = getAssetsInfo(options);
     logger.info('Getting markdown index...');
     const markdownIndex = getMarkdownIndex(assetsInfo);
     logger.info('Writing markdown index...');
