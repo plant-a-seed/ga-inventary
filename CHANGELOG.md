@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/plant-a-seed/ga-inventory/compare/v0.1.1...v0.3.0) (2023-05-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* all the refs to inventary are changed to inventory
+
+### Features
+
+* **getAssetsInfo:** show real image in table ([586bb9d](https://github.com/plant-a-seed/ga-inventory/commit/586bb9dcbb11991b48ab3d515d61bf34bec40e20))
+
+
+### Bug Fixes
+
+* **getAssetsInfo:** fix image ([b32a399](https://github.com/plant-a-seed/ga-inventory/commit/b32a399df4a6b8808bf5825deb376623b2ec3397))
+* **index.ts:** fix typescript error ([358953f](https://github.com/plant-a-seed/ga-inventory/commit/358953f843d25f73025e81786e3f65c21ae4558e))
+
+
+* rename inventary -> inventory ([1496c9a](https://github.com/plant-a-seed/ga-inventory/commit/1496c9a39e26402afed4c8e6e1ad0bd470576696))
+
 ### [0.2.1](https://github.com/plant-a-seed/ga-inventory/compare/v0.2.0...v0.2.1) (2023-05-05)
 
 
