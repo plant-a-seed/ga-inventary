@@ -1,5 +1,6 @@
 export interface AssetInfo {
     title: string;
+    model: string;
     usage: string;
     location: string;
     owner: string;
@@ -7,5 +8,6 @@ export interface AssetInfo {
     boughtSource: string;
     status: string;
     image: string;
+    quantity: number;
     content: string;
 }
