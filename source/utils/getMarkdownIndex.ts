@@ -2,13 +2,15 @@ import { markdownTable } from 'markdown-table';
 
 import { AssetInfo } from '@/types/index.js';
 
-const keysMap = {
+const keysMap: Record<keyof Omit<AssetInfo, 'content'>, string> = {
     title: 'Title',
+    model: 'Model',
     usage: 'Usage',
     location: 'Location',
     owner: 'Owner',
     boughtSince: 'Bought Since',
     boughtSource: 'Bought Source',
+    quantity: 'Quantity',
     status: 'Status',
     image: 'Image'
 };

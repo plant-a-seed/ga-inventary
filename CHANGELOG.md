@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/plant-a-seed/ga-inventory/compare/v0.3.0...v0.3.1) (2023-05-10)
+
+
+### Features
+
+* **source:** add model and quantity to properties ([cd5cefe](https://github.com/plant-a-seed/ga-inventory/commit/cd5cefe0687926af0f1bd665f99929e5b591f518))
+
 ## [0.3.0](https://github.com/plant-a-seed/ga-inventory/compare/v0.1.1...v0.3.0) (2023-05-05)
 
 
